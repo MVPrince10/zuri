@@ -5,7 +5,7 @@ def get_followers():
 	loader = instaloader.Instaloader()
 
 	# Login or load session
-	loader.login('christellebraids', 'Goma98congo')        # (login)
+	loader.login('', '')        # (login)
 
 	# Obtain profile metadata
 	profile = instaloader.Profile.from_username(loader.context, "christellebraids")
@@ -25,7 +25,7 @@ def get_followees():
 	loader = instaloader.Instaloader()
 
 	# Login or load session
-	loader.login('christellebraids', 'Zuriapp2022')        # (login)
+	loader.login('', '')        # (login)
 
 	# Obtain profile metadata
 	profile = instaloader.Profile.from_username(loader.context, "christellebraids")
